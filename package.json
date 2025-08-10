@@ -1,0 +1,27 @@
+{
+  "name": "@eightk/gate-cloud",
+  "version": "0.1.0",
+  "description": "Access gate.cloud",
+  "keywords": [
+    "Gate",
+    "Cloud",
+    "nlp"
+  ],
+  "homepage": "https://github.com/Company8k/gate-cloud#readme",
+  "bugs": {
+    "url": "https://github.com/Company8k/gate-cloud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Company8k/gate-cloud.git"
+  },
+  "license": "MIT",
+  "author": "NT <nt@eigh.tk>",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "~/.volta/bin/rollup -c rollup.config.mjs",
+    "watch": "~/.volta/bin/rollup -c rollup.config.mjs --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
